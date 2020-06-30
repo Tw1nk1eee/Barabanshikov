@@ -1,8 +1,104 @@
 object Form1: TForm1
-  Left = 1141
-  Height = 240
-  Top = 500
-  Width = 320
-  Caption = 'Form1'
+  Left = 1085
+  Height = 290
+  Top = 121
+  Width = 347
+  BorderStyle = bsSingle
+  Caption = 'Калькулятор'
+  ClientHeight = 290
+  ClientWidth = 347
   LCLVersion = '2.0.6.0'
+  object Button1: TButton
+    Left = 80
+    Height = 46
+    Top = 40
+    Width = 46
+    Caption = '+'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 8
+    Height = 46
+    Top = 40
+    Width = 46
+    Caption = '-'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 224
+    Height = 46
+    Top = 40
+    Width = 46
+    Caption = 'Х'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 152
+    Height = 46
+    Top = 40
+    Width = 46
+    Caption = '/'
+    OnClick = Button4Click
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 296
+    Height = 46
+    Top = 40
+    Width = 46
+    Caption = '%'
+    OnClick = Button5Click
+    TabOrder = 4
+  end
+  object Button6: TButton
+    Left = 8
+    Height = 46
+    Top = 96
+    Width = 334
+    Caption = '='
+    OnClick = Button6Click
+    TabOrder = 5
+  end
+  object Button7: TButton
+    Left = 8
+    Height = 25
+    Top = 265
+    Width = 334
+    Caption = 'Об авторе'
+    OnClick = Button7Click
+    TabOrder = 6
+  end
+  object Edit2: TEdit
+    Left = 0
+    Height = 36
+    Top = 0
+    Width = 170
+    Font.Height = -20
+    ParentFont = False
+    TabOrder = 7
+    TextHint = 'Введите число A'
+  end
+  object Edit3: TEdit
+    Left = 176
+    Height = 36
+    Top = 0
+    Width = 170
+    Font.Height = -20
+    ParentFont = False
+    TabOrder = 8
+    TextHint = 'Введите число B'
+  end
+  object Edit1: TEdit
+    Left = 0
+    Height = 36
+    Top = 144
+    Width = 346
+    Font.Height = -20
+    ParentFont = False
+    TabOrder = 9
+    TextHint = 'Результат'
+  end
 end

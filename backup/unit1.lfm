@@ -1,0 +1,102 @@
+object Form1: TForm1
+  Left = 1085
+  Height = 290
+  Top = 121
+  Width = 320
+  BorderStyle = bsSingle
+  Caption = 'Калькулятор'
+  ClientHeight = 290
+  ClientWidth = 320
+  LCLVersion = '2.0.6.0'
+  object Edit3: TEdit
+    Left = -2
+    Height = 45
+    Top = 0
+    Width = 320
+    Font.Height = -27
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Button1: TButton
+    Left = 72
+    Height = 46
+    Top = 48
+    Width = 46
+    Caption = '+'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 8
+    Height = 46
+    Top = 48
+    Width = 46
+    Caption = '-'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 200
+    Height = 46
+    Top = 48
+    Width = 46
+    Caption = 'Х'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 136
+    Height = 46
+    Top = 48
+    Width = 46
+    Caption = '/'
+    OnClick = Button4Click
+    TabOrder = 4
+  end
+  object Button5: TButton
+    Left = 264
+    Height = 46
+    Top = 48
+    Width = 46
+    Caption = '%'
+    OnClick = Button5Click
+    TabOrder = 5
+  end
+  object Button6: TButton
+    Left = 112
+    Height = 46
+    Top = 104
+    Width = 104
+    Caption = '='
+    OnClick = Button6Click
+    TabOrder = 6
+  end
+  object Button7: TButton
+    Left = 8
+    Height = 25
+    Top = 265
+    Width = 310
+    Caption = 'Об авторе'
+    TabOrder = 7
+  end
+  object Edit2: TEdit
+    Left = -2
+    Height = 45
+    Top = 0
+    Width = 320
+    Font.Height = -27
+    ParentFont = False
+    TabOrder = 8
+    TextHint = 'Введите число'
+  end
+  object Edit1: TEdit
+    Left = -2
+    Height = 45
+    Top = 0
+    Width = 320
+    Font.Height = -27
+    ParentFont = False
+    TabOrder = 0
+    TextHint = 'Введите число'
+  end
+end
