@@ -1,11 +1,11 @@
 object Form2: TForm2
   Left = 1451
-  Height = 91
+  Height = 65
   Top = 121
   Width = 256
   BorderStyle = bsSingle
   Caption = 'Об авторе'
-  ClientHeight = 91
+  ClientHeight = 65
   ClientWidth = 256
   Position = poDesktopCenter
   LCLVersion = '2.0.6.0'
@@ -38,14 +38,5 @@ object Form2: TForm2
     Font.Quality = fqDraft
     ParentColor = False
     ParentFont = False
-  end
-  object Button1: TButton
-    Left = 8
-    Height = 25
-    Top = 66
-    Width = 240
-    Caption = 'Вернуться к калькулятору'
-    OnClick = Button1Click
-    TabOrder = 0
   end
 end

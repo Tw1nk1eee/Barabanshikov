@@ -12,10 +12,8 @@ type
   { TForm2 }
 
   TForm2 = class(TForm)
-    Button1: TButton;
     Label1: TLabel;
     Label2: TLabel;
-    procedure Button1Click(Sender: TObject);
   private
 
   public
@@ -28,13 +26,6 @@ var
 implementation
 
 {$R *.lfm}
-
-{ TForm2 }
-
-procedure TForm2.Button1Click(Sender: TObject);
-begin
-  unit2.Form2.Hide;
-end;
 
 end.
 

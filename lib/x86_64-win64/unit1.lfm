@@ -1,102 +1,117 @@
 object Form1: TForm1
-  Left = 1085
+  Left = 1190
   Height = 290
-  Top = 121
-  Width = 320
+  Top = 354
+  Width = 347
   BorderStyle = bsSingle
   Caption = 'Калькулятор'
   ClientHeight = 290
-  ClientWidth = 320
+  ClientWidth = 347
+  Position = poDesktopCenter
   LCLVersion = '2.0.6.0'
-  object Edit3: TEdit
-    Left = -2
-    Height = 45
-    Top = 0
-    Width = 320
-    Font.Height = -27
-    ParentFont = False
-    TabOrder = 9
-  end
   object Button1: TButton
-    Left = 72
+    Left = 80
     Height = 46
-    Top = 48
+    Top = 40
     Width = 46
     Caption = '+'
     OnClick = Button1Click
-    TabOrder = 1
+    TabOrder = 0
   end
   object Button2: TButton
     Left = 8
     Height = 46
-    Top = 48
+    Top = 40
     Width = 46
     Caption = '-'
     OnClick = Button2Click
-    TabOrder = 2
+    TabOrder = 1
   end
   object Button3: TButton
-    Left = 200
+    Left = 224
     Height = 46
-    Top = 48
+    Top = 40
     Width = 46
     Caption = 'Х'
     OnClick = Button3Click
-    TabOrder = 3
+    TabOrder = 2
   end
   object Button4: TButton
-    Left = 136
+    Left = 152
     Height = 46
-    Top = 48
+    Top = 40
     Width = 46
     Caption = '/'
     OnClick = Button4Click
-    TabOrder = 4
+    TabOrder = 3
   end
   object Button5: TButton
-    Left = 264
+    Left = 296
     Height = 46
-    Top = 48
+    Top = 40
     Width = 46
     Caption = '%'
     OnClick = Button5Click
-    TabOrder = 5
-  end
-  object Button6: TButton
-    Left = 112
-    Height = 46
-    Top = 104
-    Width = 104
-    Caption = '='
-    OnClick = Button6Click
-    TabOrder = 6
+    TabOrder = 4
   end
   object Button7: TButton
     Left = 8
     Height = 25
     Top = 265
-    Width = 310
+    Width = 162
     Caption = 'Об авторе'
-    TabOrder = 7
+    OnClick = Button7Click
+    TabOrder = 5
   end
   object Edit2: TEdit
-    Left = -2
-    Height = 45
+    Left = 0
+    Height = 36
     Top = 0
-    Width = 320
-    Font.Height = -27
+    Width = 170
+    Font.Height = -20
+    OnKeyPress = Edit2KeyPress
     ParentFont = False
-    TabOrder = 8
-    TextHint = 'Введите число'
+    TabOrder = 6
+    TextHint = 'Введите число A'
+  end
+  object Edit3: TEdit
+    Left = 176
+    Height = 36
+    Top = 0
+    Width = 170
+    Font.Height = -20
+    OnKeyPress = Edit3KeyPress
+    ParentFont = False
+    TabOrder = 7
+    TextHint = 'Введите число B'
   end
   object Edit1: TEdit
-    Left = -2
-    Height = 45
-    Top = 0
-    Width = 320
-    Font.Height = -27
+    Left = 1
+    Height = 36
+    Top = 96
+    Width = 346
+    Font.Height = -20
     ParentFont = False
-    TabOrder = 0
-    TextHint = 'Введите число'
+    ReadOnly = True
+    TabOrder = 8
+    TextHint = 'Результат'
+  end
+  object Button6: TButton
+    Left = 1
+    Height = 25
+    Top = 144
+    Width = 345
+    Caption = 'Очистить'
+    OnClick = Button6Click
+    TabOrder = 9
+  end
+  object Button8: TButton
+    Left = 176
+    Height = 25
+    Top = 264
+    Width = 166
+    Caption = 'Закрыть калькулятор'
+    OnClick = Button8Click
+    TabOrder = 10
   end
 end
